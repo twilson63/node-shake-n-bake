@@ -1,0 +1,210 @@
+info it worked if it ends with ok
+verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+info using npm@1.0.15
+info using node@v0.4.11
+verbose /usr/local/bin/node node symlink
+verbose config file /Users/twilson63/.npmrc
+verbose config file /usr/local/etc/npmrc
+verbose publish [ '.' ]
+silly testEngine { name: 'shake-n-bake',
+silly testEngine   description: 'Watch Something - When it (Shake)s then (Bake) do something else',
+silly testEngine   version: '0.0.1',
+silly testEngine   homepage: '',
+silly testEngine   author: { name: 'Tom Wilson' },
+silly testEngine   private: true,
+silly testEngine   devDependencies: 
+silly testEngine    { 'coffee-script': '>= 1.x.x',
+silly testEngine      'jasmine-node': '>= 0' },
+silly testEngine   engines: { node: '>= 0.4.6' },
+silly testEngine   _npmJsonOpts: 
+silly testEngine    { file: 'package.json',
+silly testEngine      wscript: false,
+silly testEngine      contributors: false,
+silly testEngine      serverjs: false },
+silly testEngine   _id: 'shake-n-bake@0.0.1',
+silly testEngine   dependencies: {},
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.15',
+silly testEngine   _nodeVersion: 'v0.4.11',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   path: '/Users/twilson63/code/node-shakenbake' }
+verbose caching package.json
+verbose loadDefaults shake-n-bake@0.0.1
+verbose pack /Users/twilson63/code/node-shakenbake /var/folders/hj/wpw1cnk941x6p_6ww5tn42y00000gn/T/npm-1316804886631/1316804886631-0.581885498482734/tmp.tgz
+verbose mkdir done: /var/folders/hj/wpw1cnk941x6p_6ww5tn42y00000gn/T/npm-1316804886631/1316804886631-0.581885498482734 755
+verbose mkdir'ed /var/folders/hj/wpw1cnk941x6p_6ww5tn42y00000gn/T/npm-1316804886631/1316804886631-0.581885498482734
+verbose tar about to write tar and gzip it.
+silly tar args [ '-cvf',
+silly tar args   '-',
+silly tar args   'node-shakenbake/.gitignore',
+silly tar args   'node-shakenbake/.npmignore',
+silly tar args   'node-shakenbake/Cakefile',
+silly tar args   'node-shakenbake/index.coffee',
+silly tar args   'node-shakenbake/index.js',
+silly tar args   'node-shakenbake/LICENSE',
+silly tar args   'node-shakenbake/package.json',
+silly tar args   'node-shakenbake/readme.md',
+silly tar args   'node-shakenbake/examples/simple.coffee',
+silly tar args   'node-shakenbake/src/index.coffee' ]
+verbose success tar -cvf - <file list elided>
+verbose success gzip "--stdout"
+verbose mkdir done: /var/folders/hj/wpw1cnk941x6p_6ww5tn42y00000gn/T/npm-1316804886631/1316804886631-0.581885498482734/contents/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /var/folders/hj/wpw1cnk941x6p_6ww5tn42y00000gn/T/npm-1316804886631/1316804886631-0.581885498482734/contents/package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose success gzip "--decompress" "--stdout" "/var/folders/hj/wpw1cnk941x6p_6ww5tn42y00000gn/T/npm-1316804886631/1316804886631-0.581885498482734/tmp.tgz"
+verbose success tar "-mvxpf" "-" "--no-same-owner" "-C" "/var/folders/hj/wpw1cnk941x6p_6ww5tn42y00000gn/T/npm-1316804886631/1316804886631-0.581885498482734/contents/___package.npm"
+silly asyncMap in gTP /var/folders/hj/wpw1cnk941x6p_6ww5tn42y00000gn/T/npm-1316804886631/1316804886631-0.581885498482734/contents/___package.npm/node-shakenbake/
+silly asyncMap in gTP /var/folders/hj/wpw1cnk941x6p_6ww5tn42y00000gn/T/npm-1316804886631/1316804886631-0.581885498482734/contents/___package.npm/node-shakenbake/.gitignore
+silly asyncMap in gTP /var/folders/hj/wpw1cnk941x6p_6ww5tn42y00000gn/T/npm-1316804886631/1316804886631-0.581885498482734/contents/___package.npm/node-shakenbake/Cakefile
+silly asyncMap in gTP /var/folders/hj/wpw1cnk941x6p_6ww5tn42y00000gn/T/npm-1316804886631/1316804886631-0.581885498482734/contents/___package.npm/node-shakenbake/.npmignore
+silly asyncMap in gTP /var/folders/hj/wpw1cnk941x6p_6ww5tn42y00000gn/T/npm-1316804886631/1316804886631-0.581885498482734/contents/___package.npm/node-shakenbake/index.coffee
+silly asyncMap in gTP /var/folders/hj/wpw1cnk941x6p_6ww5tn42y00000gn/T/npm-1316804886631/1316804886631-0.581885498482734/contents/___package.npm/node-shakenbake/index.js
+silly asyncMap in gTP /var/folders/hj/wpw1cnk941x6p_6ww5tn42y00000gn/T/npm-1316804886631/1316804886631-0.581885498482734/contents/___package.npm/node-shakenbake/LICENSE
+silly asyncMap in gTP /var/folders/hj/wpw1cnk941x6p_6ww5tn42y00000gn/T/npm-1316804886631/1316804886631-0.581885498482734/contents/___package.npm/node-shakenbake/package.json
+silly asyncMap in gTP /var/folders/hj/wpw1cnk941x6p_6ww5tn42y00000gn/T/npm-1316804886631/1316804886631-0.581885498482734/contents/___package.npm/node-shakenbake/readme.md
+silly asyncMap in gTP /var/folders/hj/wpw1cnk941x6p_6ww5tn42y00000gn/T/npm-1316804886631/1316804886631-0.581885498482734/contents/___package.npm/node-shakenbake/examples/
+silly asyncMap in gTP /var/folders/hj/wpw1cnk941x6p_6ww5tn42y00000gn/T/npm-1316804886631/1316804886631-0.581885498482734/contents/___package.npm/node-shakenbake/examples/simple.coffee
+silly asyncMap in gTP /var/folders/hj/wpw1cnk941x6p_6ww5tn42y00000gn/T/npm-1316804886631/1316804886631-0.581885498482734/contents/___package.npm/node-shakenbake/src/
+silly asyncMap in gTP /var/folders/hj/wpw1cnk941x6p_6ww5tn42y00000gn/T/npm-1316804886631/1316804886631-0.581885498482734/contents/___package.npm/node-shakenbake/src/index.coffee
+verbose gunzed /var/folders/hj/wpw1cnk941x6p_6ww5tn42y00000gn/T/npm-1316804886631/1316804886631-0.581885498482734/contents/___package.npm/node-shakenbake
+verbose rm'ed /var/folders/hj/wpw1cnk941x6p_6ww5tn42y00000gn/T/npm-1316804886631/1316804886631-0.581885498482734/contents/package
+verbose renamed [ '/var/folders/hj/wpw1cnk941x6p_6ww5tn42y00000gn/T/npm-1316804886631/1316804886631-0.581885498482734/contents/___package.npm/node-shakenbake',
+verbose renamed   '/var/folders/hj/wpw1cnk941x6p_6ww5tn42y00000gn/T/npm-1316804886631/1316804886631-0.581885498482734/contents/package' ]
+silly testEngine { name: 'shake-n-bake',
+silly testEngine   description: 'Watch Something - When it (Shake)s then (Bake) do something else',
+silly testEngine   version: '0.0.1',
+silly testEngine   homepage: '',
+silly testEngine   author: { name: 'Tom Wilson' },
+silly testEngine   private: true,
+silly testEngine   devDependencies: 
+silly testEngine    { 'coffee-script': '>= 1.x.x',
+silly testEngine      'jasmine-node': '>= 0' },
+silly testEngine   engines: { node: '>= 0.4.6' },
+silly testEngine   _npmJsonOpts: 
+silly testEngine    { file: '/var/folders/hj/wpw1cnk941x6p_6ww5tn42y00000gn/T/npm-1316804886631/1316804886631-0.581885498482734/contents/package/package.json',
+silly testEngine      wscript: false,
+silly testEngine      contributors: false,
+silly testEngine      serverjs: false },
+silly testEngine   _id: 'shake-n-bake@0.0.1',
+silly testEngine   dependencies: {},
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.15',
+silly testEngine   _nodeVersion: 'v0.4.11',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   path: '/var/folders/hj/wpw1cnk941x6p_6ww5tn42y00000gn/T/npm-1316804886631/1316804886631-0.581885498482734/contents/package' }
+verbose caching /var/folders/hj/wpw1cnk941x6p_6ww5tn42y00000gn/T/npm-1316804886631/1316804886631-0.581885498482734/contents/package/package.json
+verbose loadDefaults shake-n-bake@0.0.1
+verbose tarball contents [ 'package' ]
+verbose from cache /var/folders/hj/wpw1cnk941x6p_6ww5tn42y00000gn/T/npm-1316804886631/1316804886631-0.581885498482734/contents/package/package.json
+verbose pack /var/folders/hj/wpw1cnk941x6p_6ww5tn42y00000gn/T/npm-1316804886631/1316804886631-0.581885498482734/contents/package /Users/twilson63/.npm/shake-n-bake/0.0.1/package.tgz
+verbose mkdir done: /Users/twilson63/.npm/shake-n-bake/0.0.1 755
+verbose mkdir'ed /Users/twilson63/.npm/shake-n-bake/0.0.1
+verbose tar about to write tar and gzip it.
+silly tar args [ '-cvf',
+silly tar args   '-',
+silly tar args   'package/.gitignore',
+silly tar args   'package/.npmignore',
+silly tar args   'package/Cakefile',
+silly tar args   'package/index.coffee',
+silly tar args   'package/index.js',
+silly tar args   'package/LICENSE',
+silly tar args   'package/package.json',
+silly tar args   'package/readme.md',
+silly tar args   'package/examples/simple.coffee',
+silly tar args   'package/src/index.coffee' ]
+verbose success tar -cvf - <file list elided>
+verbose success gzip "--stdout"
+verbose mkdir done: /Users/twilson63/.npm/shake-n-bake/0.0.1/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /Users/twilson63/.npm/shake-n-bake/0.0.1/package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose success gzip "--decompress" "--stdout" "/Users/twilson63/.npm/shake-n-bake/0.0.1/package.tgz"
+verbose success tar "-mvxpf" "-" "--no-same-owner" "-C" "/Users/twilson63/.npm/shake-n-bake/0.0.1/___package.npm"
+silly asyncMap in gTP /Users/twilson63/.npm/shake-n-bake/0.0.1/___package.npm/package/
+silly asyncMap in gTP /Users/twilson63/.npm/shake-n-bake/0.0.1/___package.npm/package/.gitignore
+silly asyncMap in gTP /Users/twilson63/.npm/shake-n-bake/0.0.1/___package.npm/package/.npmignore
+silly asyncMap in gTP /Users/twilson63/.npm/shake-n-bake/0.0.1/___package.npm/package/Cakefile
+silly asyncMap in gTP /Users/twilson63/.npm/shake-n-bake/0.0.1/___package.npm/package/index.coffee
+silly asyncMap in gTP /Users/twilson63/.npm/shake-n-bake/0.0.1/___package.npm/package/index.js
+silly asyncMap in gTP /Users/twilson63/.npm/shake-n-bake/0.0.1/___package.npm/package/LICENSE
+silly asyncMap in gTP /Users/twilson63/.npm/shake-n-bake/0.0.1/___package.npm/package/package.json
+silly asyncMap in gTP /Users/twilson63/.npm/shake-n-bake/0.0.1/___package.npm/package/readme.md
+silly asyncMap in gTP /Users/twilson63/.npm/shake-n-bake/0.0.1/___package.npm/package/examples/
+silly asyncMap in gTP /Users/twilson63/.npm/shake-n-bake/0.0.1/___package.npm/package/examples/simple.coffee
+silly asyncMap in gTP /Users/twilson63/.npm/shake-n-bake/0.0.1/___package.npm/package/src/
+silly asyncMap in gTP /Users/twilson63/.npm/shake-n-bake/0.0.1/___package.npm/package/src/index.coffee
+verbose gunzed /Users/twilson63/.npm/shake-n-bake/0.0.1/___package.npm/package
+verbose rm'ed /Users/twilson63/.npm/shake-n-bake/0.0.1/package
+verbose renamed [ '/Users/twilson63/.npm/shake-n-bake/0.0.1/___package.npm/package',
+verbose renamed   '/Users/twilson63/.npm/shake-n-bake/0.0.1/package' ]
+silly testEngine { name: 'shake-n-bake',
+silly testEngine   description: 'Watch Something - When it (Shake)s then (Bake) do something else',
+silly testEngine   version: '0.0.1',
+silly testEngine   homepage: '',
+silly testEngine   author: { name: 'Tom Wilson' },
+silly testEngine   private: true,
+silly testEngine   devDependencies: 
+silly testEngine    { 'coffee-script': '>= 1.x.x',
+silly testEngine      'jasmine-node': '>= 0' },
+silly testEngine   engines: { node: '>= 0.4.6' },
+silly testEngine   _npmJsonOpts: 
+silly testEngine    { file: '/Users/twilson63/.npm/shake-n-bake/0.0.1/package/package.json',
+silly testEngine      wscript: false,
+silly testEngine      contributors: false,
+silly testEngine      serverjs: false },
+silly testEngine   _id: 'shake-n-bake@0.0.1',
+silly testEngine   dependencies: {},
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.15',
+silly testEngine   _nodeVersion: 'v0.4.11',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   dist: { shasum: '5c530ff4bcab36e3041c8b7508e7f1386d621bf2' },
+silly testEngine   scripts: {} }
+verbose caching /Users/twilson63/.npm/shake-n-bake/0.0.1/package/package.json
+verbose loadDefaults shake-n-bake@0.0.1
+silly updated sha bytes 1137
+info shasum 5c530ff4bcab36e3041c8b7508e7f1386d621bf2
+info shasum /Users/twilson63/.npm/shake-n-bake/0.0.1/package.tgz
+verbose from cache /Users/twilson63/.npm/shake-n-bake/0.0.1/package/package.json
+verbose chmod /Users/twilson63/.npm/shake-n-bake/0.0.1/package.tgz 644
+silly publish { name: 'shake-n-bake',
+silly publish   description: 'Watch Something - When it (Shake)s then (Bake) do something else',
+silly publish   version: '0.0.1',
+silly publish   homepage: '',
+silly publish   author: { name: 'Tom Wilson' },
+silly publish   private: true,
+silly publish   devDependencies: 
+silly publish    { 'coffee-script': '>= 1.x.x',
+silly publish      'jasmine-node': '>= 0' },
+silly publish   engines: { node: '>= 0.4.6' },
+silly publish   _npmJsonOpts: 
+silly publish    { file: '/Users/twilson63/.npm/shake-n-bake/0.0.1/package/package.json',
+silly publish      wscript: false,
+silly publish      contributors: false,
+silly publish      serverjs: false },
+silly publish   _id: 'shake-n-bake@0.0.1',
+silly publish   dependencies: {},
+silly publish   _engineSupported: true,
+silly publish   _npmVersion: '1.0.15',
+silly publish   _nodeVersion: 'v0.4.11',
+silly publish   _defaultsLoaded: true,
+silly publish   dist: { shasum: '5c530ff4bcab36e3041c8b7508e7f1386d621bf2' },
+silly publish   scripts: {} }
+info prepublish shake-n-bake@0.0.1
+ERR! Error: This package has been marked as private
+ERR! Remove the 'private' field from the package.json to publish it.
+ERR!     at publish_ (/usr/local/lib/node_modules/npm/lib/publish.js:57:31)
+ERR!     at nextStep (/usr/local/lib/node_modules/npm/lib/utils/chain.js:54:8)
+ERR!     at cb (/usr/local/lib/node_modules/npm/lib/utils/chain.js:37:10)
+ERR!     at cb (/usr/local/lib/node_modules/npm/lib/utils/chain.js:35:14)
+ERR!     at /usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:145:20
+ERR!     at cb (/usr/local/lib/node_modules/npm/lib/utils/graceful-fs.js:31:9)
+ERR! Report this *entire* log at:
+ERR!     <http://github.com/isaacs/npm/issues>
+ERR! or email it to:
+ERR!     <npm-@googlegroups.com>
+ERR! 
+ERR! System Darwin 11.1.0
+ERR! command "node" "/usr/local/bin/npm" "publish"
+verbose exit [ 1, true ]

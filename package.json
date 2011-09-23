@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "homepage": "",
   "author": "Tom Wilson",
-  "private": true,
+  "private": false,
   "devDependencies": {
     "coffee-script": ">= 1.x.x",
     "jasmine-node": ">= 0"
