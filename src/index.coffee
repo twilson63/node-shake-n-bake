@@ -8,8 +8,8 @@
 module.exports = ShakeNBake =
   # callback to do the shake and bake
   watch: ->
-    unless ShakeNBake.shake? or ShakeNBake.bake? then console.log 'Shake and Bake are not defined.'
-    result = ShakeNBake.shake()  
-    if n? then ShakeNBake.bake(result) 
+    return false unless ShakeNBake.shake? and ShakeNBake.bake? 
+    ShakeNBake.bake(result) if (result = ShakeNBake.shake())? 
+    true
   listen: ->
     global.setInterval ShakeNBake.watch, 1000

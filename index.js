@@ -3,13 +3,13 @@
   module.exports = ShakeNBake = {
     watch: function() {
       var result;
-      if (!((ShakeNBake.shake != null) || (ShakeNBake.bake != null))) {
-        console.log('Shake and Bake are not defined.');
+      if (!((ShakeNBake.shake != null) && (ShakeNBake.bake != null))) {
+        return false;
       }
-      result = ShakeNBake.shake();
-      if (typeof n !== "undefined" && n !== null) {
-        return ShakeNBake.bake(result);
+      if ((result = ShakeNBake.shake()) != null) {
+        ShakeNBake.bake(result);
       }
+      return true;
     },
     listen: function() {
       return global.setInterval(ShakeNBake.watch, 1000);
