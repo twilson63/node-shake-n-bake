@@ -1,6 +1,6 @@
 # Shake ~ N ~ Bake
 
-<iframe width="420" height="315" src="http://www.youtube.com/embed/sLF31AY25so" frameborder="0" allowfullscreen></iframe>
+[http://youtu.be/1Nkw_UQhq6M](http://youtu.be/1Nkw_UQhq6M)
 
 ## NodeJs Style
 
