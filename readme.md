@@ -1,6 +1,8 @@
 # Shake ~ N ~ Bake
 
-# NodeJs Style
+<iframe width="420" height="315" src="http://www.youtube.com/embed/sLF31AY25so" frameborder="0" allowfullscreen></iframe>
+
+## NodeJs Style
 
 ``` coffeescript
 app = require 'shakenbake'
